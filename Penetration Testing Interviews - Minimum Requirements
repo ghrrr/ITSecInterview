@@ -1,0 +1,74 @@
++-----------------------------------------------+
+This article was writen by http://www.pwnag3.com
++-----------------------------------------------+
+
+We have been interviewing a lot of people lately for penetration testing jobs. From the entry level through senior level.
+Unfortunately, most of the people we interview should not be interviewing for these positions at all. These are people that
+have made it through our initial company filters and yet we still have a lot of bad interviews. It is not the fault of our 
+recruiters, rather the fault of the candidates that do not fully realize the requirements of a penetration tester.
+
+Usually when one of these candidates sits down in a room, myself and my colleague can tell within a matter of minutes if they
+are full of shit, or if they have something to offer. After they pass the full of shit mile marker, the remainder of the 
+interview is to really gauge their depth of knowledge. This post is a plea to potential candidates to satisfy a minimum set 
+of requirements, which differ for each level of pen tester.
+
+Generally, there are several things we (as well as other companies) look for in a solid penetration testing candidate.
+They must be technically sound, client presentable, have a strong passion for information security and fit in with the team.
+
+Before I dive into each level and their respective requirements, one basic requirement that is consistent throughout all levels
+is this: Do not bullshit us. If you do not know an answer, just say you do not know an answer. If you even smell a little bit
+like bull shit, you will make getting the position close to impossible so just avoid it all together. While consulting is a bit
+of smoke and mirrors itself, you cannot bullshit a bunch of bullshitters. If you are planning on this tactic, your BS better be
+good enough to fool us. After all, if you sat in front of a client and BS'd your way through an answer and the client realized it,
+you would be in a tough situation. A client will never mind if you say "I am not sure, I will check with my team and get back to
+you on that." The only exception to this rule is if the interviewer says, "that's OK if you don't know the answer, how do you
+think that would work? Or, how would you approach it?" That is a question designed to see how you think, then it is perfectly
+fine to BS that answer.
+
+[--Entry Level Penetration Tester, Minimum Requirements--]
+
+We look for passion and technical aptitude at this level. Passion isn't just that "you love this stuff," prove to us that you
+love it. Do you have a blog? Awesome, show us. Do you have any personal projects? Awesome, show us. Do you play with vulnerable
+distributions? Perfect, tell us about them and what you did with them. Once we hired a guy because he showed us a picture of
+himself standing next to a bunch of Sun servers with a big grin on his face when he was 10. That isn't the only reason he got
+the job, but it helped his story. I often say that this job is more like a "jobby" - a job and a hobby. You get the point
+hopefully.
+
+Passion is huge, but not the only requirement of an entry level pen tester. Here are the basic technical requirements... 
+Know nmap enough to run it a few different ways. Know Metasploit enough to exploit a system, the differences in payloads and
+some of the auxiliary modules. Know the basics of Windows, Linux and networking. If you're not sure what to know here, then
+think like a hacker... For example, where are the passwords stored for each of these? A lot of pen testing can be taught but
+you are expected to come in with a basic set of skills. If you don't know what the difference between a /23 and a /24 network
+are, then you're not ready.
+
+[--Mid Level Penetration Tester, Minimum Requirements--]
+
+All of the above, plus you better understand a little more under the hood. A mid level person might really be an advanced
+entry level person or a someone that might be a senior, but we just couldn't tell for sure in the interview. They might need
+to "prove" they are a senior. Either way, there is a bit of a range in the mid level.
+
+From a process perspective we're interested in how you would navigate a pen test. Do you have anything that resembles a
+methodology? Do you know how to use the information you gain from a system? You better know what pass the hash is, SQL
+injection, cross site scripting and what type shell you would use to get out of a network. Also, if you know this, you should
+know your favorite tool to do so and some of the possible switches with each. If you have taken OSCP, you should know all this
+already. In addition to these basics, a mid level pen tester is going to be on larger projects, likely client facing. Iron
+your shirt, don't wear birkenstocks and please pretend like you would be in front of a client during your interview so dress
+appropriately. A mid level pen tester should not need much training and should be able to hit the ground running pretty quickly.
+
+[--Senior Level Penetration Tester, Minimum Requirements--]
+
+All of the above, plus you better be an expert in something. Even better, be an expert in most things. you should be
+comfortable with the technical details of all kinds of systems. Most importantly, knowing the details about EXPLOITING systems.
+You should know about password cracking, exploitation of all kinds, pivoting, pilfering, lateral movement, privilege escalation
+and everything else pen test related. If you are not 100% familiar you should know enough theory to make a pretty educated
+guess. This guess I'm referring to is not BS as noted above, there is a big difference. Also, seniors are going to be put on
+the largest projects so you better be a good pen tester. You better know how to get some pwnag3 without a single vulnerability
+on a vulnerability scan. There is also a leadership quality here that is a major bonus. The entry and mid level guys will look
+up to you for advice and guidance, try to demonstrate that in your interview if possible.
+
+My last plea for all positions is to get your OSCP first if possible. Every candidate that has their OSCP coming into the
+interview has a little bit of street cred and we can assume a certain level of knowledge is already there. Again, if you're
+lying it will come out very quickly. 
+
+I am on a quest to save everyone's valuable time, both yours and mine. Please understand that becoming a pen tester is a
+significant commitment and if you're at all casual or unsure about becoming one, you're not the right person for the job.
